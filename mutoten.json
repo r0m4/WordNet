@@ -12,7 +12,8 @@
     }
     },
     { 
-    "cram.v.03.bone": {
+     "name" : "cram.v.03.bone",
+     "children" : {
       "_id": "cram.v.03.bone", 
       "antonyms": [], 
       "freq": 25, 
@@ -23,7 +24,8 @@
     }
     },
     { 
-    "cram.v.03.bone_up": {
+     "name" : "cram.v.03.bone_up",
+     "children" : {
       "_id": "cram.v.03.bone_up", 
       "antonyms": [], 
       "freq": 0, 
@@ -462,7 +464,8 @@
     }
     },
     { 
-    "understudy.v.01.alternate": {
+     "name" : "understudy.v.01.alternate",
+     "children" : {
       "_id": "understudy.v.01.alternate", 
       "antonyms": [], 
       "freq": 11, 
@@ -640,7 +643,8 @@
       ], 
       "pos": "v"
     }, 
-    "housebreak.v.01": {
+    "name" : "housebreak.v.01",
+    "children" : {
       "_id": "housebreak.v.01", 
       "definition": "train (a pet) to live cleanly in a house", 
       "freq": 0, 
