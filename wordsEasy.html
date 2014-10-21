@@ -22,7 +22,7 @@
                 .size([width-150,height-100]);        
 
 
-            d3.json("mutoten.json", function (data) {
+            d3.json("lite.json", function (data) {
                 //console.log(data.lemmas["brainwash.v.02.brainwash"]);
 
                 var nodes = tree.nodes(data);
@@ -40,15 +40,12 @@
 
                 node.append("circle")
                     .attr("r", 5)
-                    .attr("fill", "steelblue");
+                    .attr("fill", "steelblue")
+                    .attr("stroke", "steelblue")
+                    .attr("stroke-width", 1,5);
 
                 var eee = node.append("text")
-                    .text(function(d) { 
-                        for (var key in d) {
-                        return (d[key].name ? d[key].name : d[key].definition )    
-                        }
-                         
-                    });
+                    .text(function(d) { return d.name; });
                     
 
                 var diagonal = d3.svg.diagonal()  

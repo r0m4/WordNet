@@ -1,0 +1,188 @@
+{
+    "name" : "lemmas",
+    "children" : [  {
+    "name" : "brainwash.v.02.brainwash",
+    "children" : {
+      "_id": "brainwash.v.02.brainwash", 
+      "antonyms": [], 
+      "freq": 0, 
+      "name": "brainwash", 
+      "synset_id": [
+        "brainwash.v.02"
+      ]
+    }
+    },    
+    { 
+     "name" : "cram.v.03.bone_up",
+     "children" : {
+      "_id": "cram.v.03.bone_up", 
+      "antonyms": [], 
+      "freq": 0, 
+      "name": "bone_up", 
+      "synset_id": [
+        "cram.v.03"
+      ]
+    }
+    },
+    { 
+    "name" : "understudy.v.01.understudy",
+    "children" : {
+      "_id": "understudy.v.01.understudy", 
+      "antonyms": [], 
+      "freq": 0, 
+      "name": "understudy", 
+      "synset_id": [
+        "understudy.v.01"
+      ]
+    }
+  },
+  
+  {
+
+  "name" : "synsets",
+  "children" : [
+    { 
+    "name" : "housebreak.v.01",
+    "children" : {
+      "_id": "housebreak.v.01", 
+      "definition": "train (a pet) to live cleanly in a house", 
+      "freq": 0, 
+      "hypernyms": [
+        "train.v.01"
+      ], 
+      "hyponyms": [], 
+      "lemmas": [
+        "housebreak.v.01.housebreak", 
+        "housebreak.v.01.house-train"
+      ], 
+      "pos": "v"
+    }
+    },
+
+    
+    { 
+    "name" : "roughhouse.v.01",
+    "children" : {
+      "_id": "roughhouse.v.01", 
+      "definition": "engage in rough or disorderly play", 
+      "freq": 0, 
+      "hypernyms": [
+        "play.v.05"
+      ], 
+      "hyponyms": [], 
+      "lemmas": [
+        "roughhouse.v.01.roughhouse"
+      ], 
+      "pos": "v"
+    }
+    },
+    { 
+    "name" : "study.v.02",
+    "children" : {
+      "_id": "study.v.02", 
+      "definition": "be a student; follow a course of study; be enrolled at an institute of learning", 
+      "freq": 181, 
+      "hypernyms": [], 
+      "hyponyms": [
+        "major.v.01"
+      ], 
+      "lemmas": [
+        "study.v.02.study"
+      ], 
+      "pos": "v"
+    }
+    },
+    { 
+    "name" : "study.v.05",
+    "children" : {
+      "_id": "study.v.05", 
+      "definition": "learn by reading books; I must hit the books now\"", 
+      "freq": 181, 
+      "hypernyms": [
+        "learn.v.01"
+      ], 
+      "hyponyms": [
+        "cram.v.03", 
+        "memorize.v.01"
+      ], 
+      "lemmas": [
+        "study.v.05.study", 
+        "study.v.05.hit_the_books"
+      ], 
+      "pos": "v"
+    }
+    },
+    { 
+    "name" : "toilet-train.v.01", 
+    "children" : [ {
+      "name" : "indoctrinate.v.01",
+      "_id": "indoctrinate.v.01", 
+      "definition": "teach doctrines to; teach uncritically", 
+      "freq": 0, 
+      "hypernyms": [
+        "teach.v.01"
+      ], 
+      "hyponyms": [
+        "brainwash.v.02", 
+        "revolutionize.v.03"
+      ], 
+      "lemmas": [
+        "indoctrinate.v.01.indoctrinate"
+      ], 
+      "pos": "v"
+    }, 
+    {
+    "name" : "infect.v.04",
+    "children" : {
+      "_id": "infect.v.04", 
+      "definition": "affect in a contagious way", 
+      "freq": 1, 
+      "hypernyms": [
+        "affect.v.05"
+      ], 
+      "hyponyms": [], 
+      "lemmas": [
+        "infect.v.04.infect"
+      ], 
+      "pos": "v"
+    }
+    },
+    { 
+    "name" : "drill.v.05",
+    "children" : {
+      "_id": "drill.v.05", 
+      "definition": "undergo military training or do military exercises", 
+      "freq": 32, 
+      "hypernyms": [
+        "train.v.02"
+      ], 
+      "hyponyms": [], 
+      "lemmas": [
+        "drill.v.05.drill"
+      ], 
+      "pos": "v"
+    }
+    }
+    ]
+    },
+    { 
+    "name" : "understudy.v.01", 
+    "children" : {
+      "_id": "understudy.v.01", 
+      "definition": "be an understudy or alternate for a role", 
+      "freq": 11, 
+      "hypernyms": [
+        "memorize.v.01"
+      ], 
+      "hyponyms": [], 
+      "lemmas": [
+        "understudy.v.01.understudy", 
+        "understudy.v.01.alternate"
+      ], 
+      "pos": "v"
+    }
+    }
+  ]
+}
+]
+}
