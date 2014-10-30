@@ -12,8 +12,7 @@
     }
     },
     { 
-     "name" : "cram.v.03.bone",
-     "children" : {
+     "cram.v.03.bone" : {
       "_id": "cram.v.03.bone", 
       "antonyms": [], 
       "freq": 25, 
