@@ -19,11 +19,11 @@
                     .attr("transform", "translate(50, 50)");
 
             var tree = d3.layout.tree()
-                .size([width-150,height-100]);        
+                .size([width-50,height-70]);        
 
 
             d3.json("mutoten.json", function (data) {
-                //console.log(data.lemmas["brainwash.v.02.brainwash"]);
+                console.log(data);
 
                 var nodes = tree.nodes(data);
                 console.log(nodes)
@@ -48,6 +48,10 @@
                         return (d[key].name ? d[key].name : d[key].definition )    
                         }
                          
+                    })
+                    .attr('text-anchor', function (d, i) {
+                        if (i>0) {return "end"
+                        } else return "middle";
                     });
                     
 

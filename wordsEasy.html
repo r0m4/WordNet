@@ -19,7 +19,7 @@
                     .attr("transform", "translate(50, 50)");
 
             var tree = d3.layout.tree()
-                .size([width-50,height-150]);        
+                .size([width-50,height-70]);        
 
 
             d3.json("handMade.json", function (data) {
@@ -45,7 +45,11 @@
                     .attr("stroke-width", 1,5);
 
                 var eee = node.append("text")
-                    .text(function(d) { return d.name; });
+                    .text(function(d) { return d.name; })
+                    .attr('text-anchor', function (d, i) {
+                        if (i>0) {return "end"
+                        } else return "middle";
+                    });
                     
 
                 var diagonal = d3.svg.diagonal()  

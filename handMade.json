@@ -6,22 +6,204 @@
         {"name" :"clump.v.03" }, 
         {"name" :"flounce.v.01"}, 
         {"name" :"foot.v.02"}, 
-        {"name" :"hike.v.02"}, 
+        {"name" :"hike.v.02",
+         "children" : [
+                { "name" : "backpack.v.01",
+                  "data" : {
+                  "_id": "backpack.v.01", 
+                  "definition": "hike with a backpack", 
+                  "freq": 11, 
+                  "hypernyms": [
+                    "hike.v.02"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "backpack.v.01.backpack", 
+                    "backpack.v.01.pack"
+                  ], 
+                  "pos": "v"
+                }
+                },
+                { "name" : "tramp.v.01",
+                  "data" : {
+                  "_id": "tramp.v.01", 
+                  "definition": "travel on foot, especially on a walking expedition", 
+                  "freq": 1, 
+                  "hypernyms": [
+                    "hike.v.02"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "tramp.v.01.tramp"
+                  ], 
+                  "pos": "v"
+                }
+                }
+                ]
+                }, 
         {"name" :"limp.v.01"}, 
         {"name" :"lollop.v.01"}, 
         {"name" :"lumber.v.01"}, 
-        {"name" :"march.v.01"}, 
-        {"name" :"march.v.03"}, 
+        {"name" :"march.v.01",
+         "children" : [
+                { "name" : "countermarch.v.01",
+                  "data" : {
+                  "_id": "countermarch.v.01", 
+                  "definition": "march back along the same way", 
+                  "freq": 0, 
+                  "hypernyms": [
+                    "march.v.01"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "countermarch.v.01.countermarch"
+                  ], 
+                  "pos": "v"
+                }
+                },
+                {
+                  "name" : "debouch.v.01",
+                  "data" : {
+                  "_id": "debouch.v.01", 
+                  "definition": "march out (as from a defile) into open ground", 
+                  "freq": 0, 
+                  "hypernyms": [
+                    "march.v.01"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "debouch.v.01.debouch", 
+                    "debouch.v.01.march_out"
+                  ], 
+                  "pos": "v"
+                }
+                },
+                {
+                   "name" : "file.v.03",
+                   "data" : {
+                  "_id": "file.v.03", 
+                  "definition": "proceed in line", 
+                  "freq": 63, 
+                  "hypernyms": [
+                    "march.v.01"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "file.v.03.file"
+                  ], 
+                  "pos": "v"
+                }
+                },
+                {
+                  "name" : "goose_step.v.01",
+                  "data" : {
+                  "_id": "goose_step.v.01", 
+                  "definition": "march in a military fashion", 
+                  "freq": 0, 
+                  "hypernyms": [
+                    "march.v.01"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "goose_step.v.01.goose_step"
+                  ], 
+                  "pos": "v"
+                }
+                },
+                {
+                  "name" : "parade.v.02",
+                  "data" : {
+                  "_id": "parade.v.02", 
+                  "definition": "march in a procession", 
+                  "freq": 40, 
+                  "hypernyms": [
+                    "march.v.01"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "parade.v.02.parade", 
+                    "parade.v.02.troop", 
+                    "parade.v.02.promenade"
+                  ], 
+                  "pos": "v"
+                }
+                }
+                ]
+                }, 
+        {"name" :"march.v.03",
+        "children" : [
+                {
+                  "name" : "troop.v.02",
+                  "data" : {
+                  "_id": "troop.v.02", 
+                  "definition": "move or march as if in a crowd", 
+                  "freq": 15, 
+                  "hypernyms": [
+                    "march.v.03"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "troop.v.02.troop"
+                  ], 
+                  "pos": "v"
+                }
+                }
+                ]
+                }, 
         {"name" :"mince.v.02"}, 
         {"name" :"pace.v.01"}, 
         {"name" :"perambulate.v.02"}, 
         {"name" :"promenade.v.02"}, 
         {"name" :"prowl.v.01"}, 
-        {"name" :"shuffle.v.01"}, 
+        {"name" :"shuffle.v.01",
+         "children" : [
+                {
+                  "name" : "scuff.v.01",
+                  "data" : {
+                  "_id": "scuff.v.01", 
+                  "definition": "walk without lifting the feet", 
+                  "freq": 13, 
+                  "hypernyms": [
+                    "shuffle.v.01"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "scuff.v.01.scuff", 
+                    "scuff.v.01.drag"
+                  ], 
+                  "pos": "v"
+                }
+                }
+                ]
+                }, 
         {"name" :"skulk.v.03"}, 
         {"name" :"sleepwalk.v.01"}, 
         {"name" :"slink.v.01"}, 
-        {"name" :"slog.v.02"}, 
+        {"name" :"slog.v.02",
+         "children" : [
+                {
+                  "name" : "squelch.v.03",
+                  "data" : {
+                  "_id": "squelch.v.03", 
+                  "definition": "walk through mud or mire", 
+                  "freq": 5, 
+                  "hypernyms": [
+                    "slog.v.02"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "squelch.v.03.squelch", 
+                    "squelch.v.03.squish", 
+                    "squelch.v.03.splash", 
+                    "squelch.v.03.splosh", 
+                    "squelch.v.03.slosh", 
+                    "squelch.v.03.slop"
+                  ], 
+                  "pos": "v"
+                }
+                }
+                ]
+                }, 
         {"name" :"slouch.v.02"}, 
         {"name" :"sneak.v.01"}, 
         {"name" :"spacewalk.v.01"}, 
@@ -40,7 +222,45 @@
         {"name" :"toe.v.01"}, 
         {"name" :"traipse.v.01"}, 
         {"name" :"tramp_down.v.01"}, 
-        {"name" :"tread.v.02"}, 
-        {"name" :"wade.v.01"}
+        {"name" :"tread.v.02",
+         "children" : [
+                {
+                  "name" : "treadle.v.01",
+                  "data" : {
+                  "_id": "treadle.v.01", 
+                  "definition": "tread over", 
+                  "freq": 0, 
+                  "hypernyms": [
+                    "tread.v.02"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "treadle.v.01.treadle"
+                  ], 
+                  "pos": "v"
+                }
+                }
+                ]
+                }, 
+        {"name" :"wade.v.01",
+         "children" : [
+                {
+                  "name" : "puddle.v.01",
+                  "data" : {
+                  "_id": "puddle.v.01", 
+                  "definition": "wade or dabble in a puddle", 
+                  "freq": 1, 
+                  "hypernyms": [
+                    "wade.v.01"
+                  ], 
+                  "hyponyms": [], 
+                  "lemmas": [
+                    "puddle.v.01.puddle"
+                  ], 
+                  "pos": "v"
+                }
+                }   
+                ]
+                }
       ]
     }
