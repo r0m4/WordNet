@@ -16,18 +16,17 @@ server.on('request', function(req, res){
     console.log(verb);
     console.log(req.url);
     var z = parsedWords.synsets[verb];
+
     
-    for (var key in z){
-        console.log(key)
-    }
+   
 
-    console.log(z);
+    console.log(z.hyponyms);
 
-   if(req.url===parsedWords.synsets[verb]){
+   if( true/*verb=== сюда нужно вставить этот неработающий ключ из объекта*/){
          
         res.end(JSON.stringify(parsedWords.synsets[verb]));
         
    } else
    res.setHeader("Content-Type", "text/plain; charset=utf-8");
-   res.end("everything end"); 
+   res.end("everything is ended"); 
 });
